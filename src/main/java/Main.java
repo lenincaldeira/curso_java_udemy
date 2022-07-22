@@ -8,6 +8,7 @@ public class Main {
         String nome = "Lenin";
         int idade = 35;
         double renda = 4000.0;
+
         System.out.println(y);
         System.out.println(x);
         System.out.printf("%.2f%n", x);
