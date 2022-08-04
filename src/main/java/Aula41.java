@@ -8,7 +8,7 @@ public class Aula41 {
         double price = 400.00;
 
         double discount;
-        
+
         if (price < 200.00) {
             discount = price * 0.1;
         } else {
