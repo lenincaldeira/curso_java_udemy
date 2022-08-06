@@ -83,6 +83,37 @@ public class ExercicioEstruturaFor {
 }
 
 EXERCICIO 4>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ExercicioEstruturaFor {
+
+    public static void main(String[] args) {
+
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        for (int  i=0; i<n; i++) {
+
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+
+            if (y == 0){
+                System.out.println("Divisao Impossivel!");
+            }
+            else {
+                double div = (double) x / y;
+                System.out.printf("%.1f%n", div);
+            }
+        }
+
+        sc.close();
+    }
+}
+
 EXERCICIO 5>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 EXERCICIO 6>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 EXERCICIO 7>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -110,31 +141,22 @@ public class ExercicioEstruturaFor {
 
  */
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class ExercicioEstruturaFor {
 
     public static void main(String[] args) {
 
-        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
 
-        for (int  i=0; i<n; i++) {
-
-            int x = sc.nextInt();
-            int y = sc.nextInt();
-
-            if (y == 0){
-                System.out.println("Divisao Impossivel!");
-            }
-            else {
-                double div = (double) x / y;
-                System.out.printf("%.1f%n", div);
-            }
+        int fat = 1;
+        for (int i=1; i<=n; i++) {
+            fat = fat * i;
         }
+
+        System.out.println(fat);
 
         sc.close();
     }
