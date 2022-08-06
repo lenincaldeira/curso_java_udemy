@@ -115,6 +115,28 @@ public class ExercicioEstruturaFor {
 }
 
 EXERCICIO 5>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+
+public class ExercicioEstruturaFor {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        int fat = 1;
+        for (int i=1; i<=n; i++) {
+            fat = fat * i;
+        }
+
+        System.out.println(fat);
+
+        sc.close();
+    }
+}
+
 EXERCICIO 6>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 EXERCICIO 7>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -143,23 +165,23 @@ public class ExercicioEstruturaFor {
 
 import java.util.Scanner;
 
-public class ExercicioEstruturaFor {
+//nao esqueca de mudar o nome da classe para Main
+public class  ExercicioEstruturaFor {
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+                Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt();
+                int n = sc.nextInt();
 
-        int fat = 1;
-        for (int i=1; i<=n; i++) {
-            fat = fat * i;
+                for (int i=1; i<=n; i++) {
+                        if (n % i == 0) {
+                                System.out.println(i);
+                        }
+                }
+
+                sc.close();
         }
-
-        System.out.println(fat);
-
-        sc.close();
-    }
 }
 
 
