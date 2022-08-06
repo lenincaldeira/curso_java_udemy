@@ -22,7 +22,7 @@ public class ExercicioEstruturaFor {
 }
 
 EXERCICIO 2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
- */
+
 import java.util.Scanner;
 
 public class ExercicioEstruturaFor {
@@ -52,3 +52,35 @@ public class ExercicioEstruturaFor {
         sc.close();
     }
 }
+
+EXERCICIO 3>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+EXERCICIO 4>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+EXERCICIO 5>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+EXERCICIO 6>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+EXERCICIO 7>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+
+public class ExercicioEstruturaFor {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        for (int i=1; i<n; i++) {
+            int primeiro = i;
+            int segundo = i * i;
+            int terceiro = i * i * i;
+            System.out.printf("%d %d %d%n", primeiro, segundo, terceiro);
+        }
+
+        sc.close();
+    }
+}
+
+ */
+
+
+
