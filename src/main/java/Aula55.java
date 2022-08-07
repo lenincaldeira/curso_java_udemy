@@ -28,7 +28,7 @@ public class Aula55 {
         sc.close();
 
          */
-        
+
 // MANEIRA CORRETA UTILIZANDO O "DO WHILE"
 
         Locale.setDefault(Locale.US);
