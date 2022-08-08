@@ -36,6 +36,6 @@ public class Aula59  {
         System.out.println(vect[1]);
         System.out.println(vect[2]);
         System.out.println(vect[3]);
-        
+
     }
 }
