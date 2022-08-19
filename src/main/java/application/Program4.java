@@ -6,7 +6,7 @@ import java.util.Scanner;
 import entities.Student;
 
 public class Program4 {
-
+//Finalizando o programa
         public static void main(String[] args) {
 
             Locale.setDefault(Locale.US);
