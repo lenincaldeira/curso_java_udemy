@@ -13,6 +13,7 @@ public class ProgramAula76 {
                 System.out.println("Enter product data: ");
                 System.out.print("Name: ");
                 String name = sc.nextLine();
+                System.out.print("Price: ");
                 double price = sc.nextDouble();
                 System.out.print("Quantity in stock: ");
                 int quantity = sc.nextInt();
