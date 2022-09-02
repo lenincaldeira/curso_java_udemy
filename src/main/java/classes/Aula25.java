@@ -1,4 +1,4 @@
-// Procesamento de Dados em Java, Casting.
+package classes;// Procesamento de Dados em Java, Casting.
 
 public class Aula25 {
     public static void main(String[] args){

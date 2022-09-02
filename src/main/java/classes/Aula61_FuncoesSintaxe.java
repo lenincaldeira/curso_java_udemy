@@ -1,7 +1,7 @@
-/*
+package classes;/*
 import java.util.Scanner;
 
-public class Aula61_FuncoesSintaxe {
+public class classes.Aula61_FuncoesSintaxe {
 
    public static void main(String[] args) {
 

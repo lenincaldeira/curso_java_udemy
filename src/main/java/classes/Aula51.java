@@ -1,3 +1,5 @@
+package classes;
+
 public class Aula51 {
 
     public static void main(String[] args) {

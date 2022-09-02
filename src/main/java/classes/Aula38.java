@@ -1,8 +1,8 @@
-/*
+package classes;/*
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Aula38 {
+public class classes.Aula38 {
 
     public static void main(String[] args){
 

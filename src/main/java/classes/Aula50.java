@@ -1,9 +1,11 @@
+package classes;
+
 /*
 EXEMPLO 1
 
 import java.util.Scanner;
 
-public class Aula50 {
+public class classes.Aula50 {
 
     public static void main(String[] args) {
 
@@ -24,7 +26,7 @@ public class Aula50 {
 }
 EXEMPLO 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-public class Aula50 {
+public class classes.Aula50 {
 
     public static void main(String[] args) {
 

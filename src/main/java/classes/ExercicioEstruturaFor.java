@@ -1,9 +1,9 @@
-/*
+package classes;/*
 EXERCICIO 1>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 import java.util.Scanner;
 
-public class ExercicioEstruturaFor {
+public class classes.ExercicioEstruturaFor {
 
     public static void main(String[] args) {
 
@@ -25,7 +25,7 @@ EXERCICIO 2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 import java.util.Scanner;
 
-public class ExercicioEstruturaFor {
+public class classes.ExercicioEstruturaFor {
 
     public static void main(String[] args) {
 
@@ -58,7 +58,7 @@ EXERCICIO 3>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExercicioEstruturaFor {
+public class classes.ExercicioEstruturaFor {
 
     public static void main(String[] args) {
 
@@ -87,7 +87,7 @@ EXERCICIO 4>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExercicioEstruturaFor {
+public class classes.ExercicioEstruturaFor {
 
     public static void main(String[] args) {
 
@@ -118,7 +118,7 @@ EXERCICIO 5>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 import java.util.Scanner;
 
-public class ExercicioEstruturaFor {
+public class classes.ExercicioEstruturaFor {
 
     public static void main(String[] args) {
 
@@ -142,7 +142,7 @@ EXERCICIO 7>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 import java.util.Scanner;
 
-public class ExercicioEstruturaFor {
+public class classes.ExercicioEstruturaFor {
 
     public static void main(String[] args) {
 
@@ -165,7 +165,7 @@ public class ExercicioEstruturaFor {
 
 import java.util.Scanner;
 
-//nao esqueca de mudar o nome da classe para Main
+//nao esqueca de mudar o nome da classe para classes.Main
 public class  ExercicioEstruturaFor {
 
         public static void main(String[] args) {

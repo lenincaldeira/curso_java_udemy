@@ -1,3 +1,5 @@
+package classes;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -8,7 +10,7 @@ public class Aula37exercicioEstruturaCondicional {
 Exercicio 1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 import java.util.Scanner;
 
-public class Aula37exercicioEstruturaCondicional {
+public class classes.Aula37exercicioEstruturaCondicional {
 
     public static void main(String[] args) {
 
@@ -28,7 +30,7 @@ public class Aula37exercicioEstruturaCondicional {
 Exercicio 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 import java.util.Scanner;
 
-public class Aula37exercicioEstruturaCondicional {
+public class classes.Aula37exercicioEstruturaCondicional {
 
     public static void main(String[] args) {
 
@@ -48,7 +50,7 @@ public class Aula37exercicioEstruturaCondicional {
 Exercicio 3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 import java.util.Scanner;
 
-public class Aula37exercicioEstruturaCondicional {
+public class classes.Aula37exercicioEstruturaCondicional {
 
     public static void main(String[] args) {
 
@@ -69,7 +71,7 @@ public class Aula37exercicioEstruturaCondicional {
 Exercicio 4 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 import java.util.Scanner;
 
-public class Aula37exercicioEstruturaCondicional {
+public class classes.Aula37exercicioEstruturaCondicional {
 
     public static void main(String[] args) {
 
@@ -94,7 +96,7 @@ Exercicio 5 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Aula37exercicioEstruturaCondicional {
+public class classes.Aula37exercicioEstruturaCondicional {
 
     public static void main(String[] args) {
 
@@ -133,7 +135,7 @@ Exercicio 6 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Aula37exercicioEstruturaCondicional {
+public class classes.Aula37exercicioEstruturaCondicional {
 
     public static void main(String[] args) {
 
@@ -159,7 +161,7 @@ public class Aula37exercicioEstruturaCondicional {
 Exercicio 6 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 import java.util.Scanner;
 
-public class Aula37exercicioEstruturaCondicional {
+public class classes.Aula37exercicioEstruturaCondicional {
 
     public static void main(String[] args) {
 
@@ -190,7 +192,7 @@ Exercicio 7 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Aula37exercicioEstruturaCondicional {
+public class classes.Aula37exercicioEstruturaCondicional {
 
     public static void main(String[] args) {
 

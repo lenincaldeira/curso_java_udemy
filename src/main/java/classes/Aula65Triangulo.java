@@ -1,3 +1,5 @@
+package classes;
+
 // CRIANDO UMA CLASSE COM TRES ATRIBUTOS PARA REPRESENTAR MELHOR O TRIANGULO
 public class Aula65Triangulo {
 

@@ -1,9 +1,9 @@
-/*
+package classes;/*
 EXERCICIO 1:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 import java.util.Scanner;
 
-public class ExercicioEstruturaWhile {
+public class classes.ExercicioEstruturaWhile {
 
     public static void main(String[] args) {
 
@@ -26,7 +26,7 @@ EXERCICIO 2:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 import java.util.Scanner;
 
-public class ExercicioEstruturaWhile {
+public class classes.ExercicioEstruturaWhile {
 
     public static void main(String[] args) {
 
