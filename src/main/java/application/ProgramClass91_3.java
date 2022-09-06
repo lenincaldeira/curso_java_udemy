@@ -3,40 +3,34 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ProgramClass91 {
+public class ProgramClass91_3 {
 
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int n;
-        double soma, media;
-
         System.out.print("Quantos numeros voce vai digitar? ");
-        n = sc.nextInt();
+        int n = sc.nextInt();
 
         double[] vetor = new double[n];
-
         for (int i=0; i < n; i++) {
-            System.out.print("Digite um numero: ");
+            System.out.print("Digite um  numero: ");
             vetor[i] = sc.nextDouble();
         }
 
-        soma = 0.0;
-        for (int i=0; i < n; i++){
-            soma = soma + vetor[i];
-        }
+        double maior = 0.0;
+        int posmaior = 0;
 
-        media = soma / n;
-
-        System.out.print("VALORES: ");
         for (int i=0; i < n; i++) {
-            System.out.printf("%.1f ", vetor[i]);
+            if (vetor[i] > maior) {
+                maior = vetor[i];
+                posmaior = i;
+            }
         }
 
-        System.out.printf("\nSOMA = %.2f\n", soma);
-        System.out.printf("MEDIA = %.2f\n", media);
+        System.out.printf("\nMAIOR VALOR = %.1f\n", maior);
+        System.out.printf("POSICAO DO MAIOR VALOR = %d\n", posmaior);
 
         sc.close();
     }
