@@ -36,7 +36,7 @@ public class ProgramChallangeClass95 {
                 System.out.println("Room "+ i + ": " + vect[i]);
             }
         }
-        
+
         sc.close();
     }
 }
