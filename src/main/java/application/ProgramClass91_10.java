@@ -40,6 +40,7 @@ public class ProgramClass91_10 {
 
         qtdhomens = 0;
         qtdmulheres = 0;
+        alturafemtotal = 0;
 
         for (int i = 0; i < n; i++) {
             if (generos[i] == 'M') {
@@ -59,6 +60,6 @@ public class ProgramClass91_10 {
         System.out.printf("Número de homens = %d\n", qtdhomens);
         System.out.printf("Número de mulheres = %d\n", qtdmulheres);
 
-    sc.close();
+        sc.close();
     }
 }
