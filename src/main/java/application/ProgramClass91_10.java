@@ -26,8 +26,8 @@ public class ProgramClass91_10 {
             generos[i] = sc.next().charAt(0);
         }
 
-        maioraltura = 0.0;
-        menoraltura = 0.0;
+        maioraltura = alturas[0];
+        menoraltura = alturas[0];
 
         for (int i = 0; i < n; i++) {
             if (alturas[i] > maioraltura) {
