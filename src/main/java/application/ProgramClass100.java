@@ -20,9 +20,16 @@ public class ProgramClass100 {
         int N = sc.nextInt();
 
         for (int i = 0; i < N; i++) {
-            System.out.println("\nEmployee #" + (i + 1)+ ": ");
+
+            System.out.println();
+            System.out.println("Employee #" + (i + 1)+ ": ");
             System.out.print("Id: ");
             Integer id  = sc.nextInt();
+            while (position(list, id)){
+                System.out.println("Id already taken! Try again:");
+                id = sc.nextInt();
+            }
+
             System.out.print("Name: ");
             sc.nextLine();
             String name = sc.nextLine();
@@ -35,28 +42,34 @@ public class ProgramClass100 {
 
         }
 
+        System.out.println();
         System.out.print("Enter the employee id that will have salary increase: ");
         int idsalaray = sc.nextInt();
-        Integer pos = position(list, idsalaray);
-        if (pos == null) {
+
+        EmployeeClass100 emp = list.stream().filter(x -> x.getId() == idsalaray).findFirst().orElse(null);
+
+        //Integer pos = position(list, idsalaray);
+        if (emp == null) {
             System.out.println("This id does not exist!");
         }
         else {
             System.out.print("Enter the percentage: ");
             double percent = sc.nextDouble();
-            list.get(pos).increaseSalary(percent);
+            emp.increaseSalary(percent);
+        }
+
+        System.out.println();
+        System.out.println("List of employees: ");
+        for (EmployeeClass100 e: list) {
+            System.out.println(e);
         }
 
         sc.close();
     }
 
-    public static Integer position(List<EmployeeClass100> list, int id) {
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i).getId() == id) {
-                return i;
-            }
-        }
-        return null;
+    public static Boolean position(List<EmployeeClass100> list, int id) {
+        EmployeeClass100 emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
+        return emp != null;
     }
 }
 
