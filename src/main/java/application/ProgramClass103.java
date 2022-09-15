@@ -12,9 +12,8 @@ public class ProgramClass103 {
         int [][] mat = new int [n][n];
 
         for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < ,mat[i].length; j++) {
-                mat[i][j] = sc.nextInt();
-            }
+            for (int j = 0; j < mat[i].length; j++)
+            mat[i][j] = sc.nextInt();
         }
 
         System.out.println("main diagonal: ");
