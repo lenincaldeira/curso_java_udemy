@@ -21,7 +21,7 @@ public class ProgramClass156 {
 
         BusinessAccountClass156 acc4 = (BusinessAccountClass156)acc2;
         acc4.loan(100.0);
-
+//
         // BusinessAccountClass156 acc5 = (BusinessAccountClass156)acc3;
         if (acc3 instanceof BusinessAccountClass156) {
             BusinessAccountClass156 acc5 = (BusinessAccountClass156)acc3;
