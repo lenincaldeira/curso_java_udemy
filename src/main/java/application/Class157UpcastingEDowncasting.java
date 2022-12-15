@@ -22,8 +22,19 @@ public class Class157UpcastingEDowncasting {
         BusinessAccountClass156 acc4 = (BusinessAccountClass156) acc2;
         acc4.loan(100.0);
 
-        BusinessAccountClass156 acc5 = (BusinessAccountClass156)acc3;
+        // BusinessAccountClass156 acc5 = (BusinessAccountClass156)acc3;
 
+        if (acc3 instanceof BusinessAccountClass156) {
+            BusinessAccountClass156 acc5 = (BusinessAccountClass156)acc3;
+            acc5.loan(200.0);
+            System.out.println("Loan!");
+        }
+
+        if (acc3 instanceof SavingsAccount) {
+            SavingsAccount acc5 = (SavingsAccount)acc3;
+            acc5.updateBalance();
+            System.out.println("Update!");
+        }
 
     }
 }
