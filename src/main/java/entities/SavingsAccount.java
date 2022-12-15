@@ -1,11 +1,15 @@
 package entities;
 
-public class SavingsAccount extends AccountClass156{
+public class SavingsAccount extends AccountClass156 {
 
     private Double interestRate;
 
     public SavingsAccount() {
         super();
+    }
+
+    public SavingsAccount(Double interestRate) {
+        this.interestRate = interestRate;
     }
 
     public SavingsAccount(Integer number, String holder, Double balance, Double interestRate) {
@@ -25,3 +29,4 @@ public class SavingsAccount extends AccountClass156{
         balance += balance * interestRate;
     }
 }
+
